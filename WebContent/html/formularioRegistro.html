@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insertar el título aquí</title>
+</head>
+<body>
+
+	<form action="../jsp/registro.jsp" method="get">
+		Nick: <input type="text" name="nick" id="nick" /> <br> Nombre de
+		usuario: <input type="text" name="nombreUsuario" id="nombreUsuario" />
+		<br> Contraseña: <input type="password" name="contrasena"
+			id="contrasena" />
+		<!-- Se podría convertir en jsp, y limitar el acceso a intrusos. "Vuelve a introducir la contraseña". -->
+
+		<br> Año de nacimiento: <input type="number" name="anioNacimiento"
+			id="anioNacimiento" /> <br> Género: 
+			<input type="radio"
+			name="genero" value="masculino"> Masculino<br> <input
+			type="radio" name="genero" value="femenino"> Femenino<br>
+
+		<br> Ciudad: <input type="text" name="ciudad" id="ciudad" /> <br>
+		País: <input type="text" name="pais" id="pais" /> <br> Email: <input
+			type="text" name="email" id="email" /> <br> <input
+			type="submit" name="enviar" value="Enviar" />
+	</form>
+
+</body>
+</html>
